@@ -1,0 +1,44 @@
+body{
+    background: azure;
+}
+ol{
+    border-radius: 10px;
+    border-style: solid;
+    background-color: gray;
+    display: inline-block;
+    width: 250px;
+    height: 70px;
+    padding-top: 10px;
+    margin-bottom: 5px;
+    margin-left: 30px;
+}
+h2:target {
+    text-decoration: underline;
+    font-style: italic;
+}
+div{
+    background: white;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: black;
+    padding: 5px;
+    margin: 5px;
+    display: block;
+    height: 250px;
+    width: 350px;
+
+}
+
+span{
+    text-transform: unset;
+}
+span:last-of-type{
+    font-style: italic;
+    text-transform: lowercase;
+}
+
+
+tr:last-child td {
+    font-style: normal;
+    color: white;
+}
